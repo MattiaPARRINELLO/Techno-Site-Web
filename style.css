@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
