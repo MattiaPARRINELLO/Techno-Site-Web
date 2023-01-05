@@ -31,3 +31,11 @@ main {
   margin: 0 auto;
   padding: 20px;
 }
+
+#computer {
+  display: none;
+}
+
+#mobile {
+  display: none;
+}

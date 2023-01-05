@@ -1,38 +1,71 @@
 <!DOCTYPE html>
+<!-- Indique que la page est en HTML5 -->
 <html lang="fr">
+  <!-- Langue de la page -->
   <head>
+    <!-- Informations de la page pour pouvoir la charger correctement -->
     <title>Accueil de mon site</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Titre de la page -->
+    <link rel="stylesheet" type="text/css" href="CSS/homePages.css" />
+    <!-- Lien vers le fichier CSS -->
+    <script src="scripts/homePage.js" defer></script>
+    <!-- Lien vers le fichier JavaScript, "defer est pour chager le script a la fin du chargement de la page, ce script assure le bon fonctionnement de la page" -->
   </head>
   <body>
-    <header>
-      <h1>Mon site sur l'informatique</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="histoire.html">Histoire de l'informatique</a></li>
-          <li>
-            <a href="concepts.html">Concepts de base de l'informatique</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h2>Bienvenue sur mon site sur l'informatique!</h2>
-      <p>
-        Ici, vous trouverez des informations sur l'histoire de l'informatique,
-        ainsi que sur les concepts de base qui sous-tendent cette science
-        passionnante.
-      </p>
-      <p>
-        Si vous voulez vous amuser un peu durant votre correction, je vous
-        laisse ici quelques jeu que j'ai fait en JavaScript, cliquez
-        <a href="/jeu">ici</a>
-      </p>
-      <p>
-        Pour vous faciliter la correction, vous pouvez acceder au code source de
-        ce site en cliquant<a href="github.com/MattiaPARRINELLO">ici.</a>
-      </p>
-    </main>
+    <div id="computer">
+      <!-- Page ordinateur -->
+      <header>
+        <!-- En-tête de la page, onglet de navigation -->
+        <h1>Mon site sur l'informatique</h1>
+        <!-- Titre de la page -->
+        <nav>
+          <!-- Onglet de navigation -->
+          <ul>
+            <!-- Liste des liens -->
+            <li><a href="index.html">Accueil</a></li>
+            <!-- Lien vers la page d'accueil -->
+            <li><a href="histoire.html">Histoire de l'informatique</a></li>
+            <!-- Lien vers la page sur l'histoire de l'informatique -->
+            <li>
+              <a href="concepts.html">Concepts de base de l'informatique</a>
+              <!-- Lien vers la page sur les concepts de base de l'informatique -->
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <!-- Corps de la page -->
+        <h2>Bienvenue sur mon site sur l'informatique!</h2>
+        <!-- Titre de la page -->
+        <p>
+          <!-- Paragraphe -->
+          Ici, vous trouverez des informations sur l'histoire de l'informatique,
+          ainsi que sur les concepts de base qui sous-tendent cette science
+          passionnante.
+        </p>
+        <p>
+          <!-- Paragraphe -->
+          Si vous voulez vous amuser un peu durant votre correction, je vous
+          laisse ici quelques jeu que j'ai fait en JavaScript, cliquez
+          <a href="jeu.html">ici</a>
+          <!-- Lien vers la page des jeux -->
+        </p>
+        <p>
+          <!-- Paragraphe -->
+          Pour vous faciliter la correction, vous pouvez acceder au code source
+          de ce site en cliquant<a
+            href="https://github.com/MattiaPARRINELLO/Techno-Site-Web"
+          >
+            ici.</a
+          >
+          <!-- Lien vers le code source du site -->
+        </p>
+      </main>
+    </div>
+    <div id="mobile">
+      <!-- Page mobile -->
+      <h1>Le site n'est pas disponible sur mobile</h1>
+      <!-- Titre de la page -->
+    </div>
   </body>
 </html>

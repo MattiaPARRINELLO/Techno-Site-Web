@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Page en HTML 5 -->
+<html lang="fr">
+  <!-- Langue du site -->
+  <head>
+    <!-- Informations de la page -->
+    <meta charset="UTF-8" />
+    <!-- Encodage de la page -->
+    <title>R-P-S</title>
+    <!-- Titre de la page -->
+    <link rel="stylesheet" href="../../CSS/RPC.css" />
+    <!-- Lien vers le fichier CSS -->
+    <script
+      src="https://kit.fontawesome.com/e391ce7786.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Lien vers un fichier pour des icones -->
+    <script src="../../scripts/RPC.js"></script>
+    <!-- Lien vers le fichier JavaScript -->
+  </head>
+  <body>
+    <!-- Corps de la page -->
+    <h1>Pierre Papier Ciseaux</h1>
+    <!-- Titre de la page -->
+    <h2 id="infoText">Tantez votre chance</h2>
+    <!-- Sous-titre de la page -->
+    <div class="container">
+      <!-- Div contenant les informations du joueur et de l'ordinateur -->
+      <div class="section">
+        <!-- Div contenant les informations du joueur -->
+        <div class="info">
+          <!-- Div contenant le nom du joueur et son score -->
+          <h3 id="userInfo">Vous :</h3>
+          <!-- Nom du joueur -->
+          <span id="userScore">0</span>
+          <!-- Score du joueur -->
+        </div>
+        <div class="show">
+          <!-- Div contenant l'icone du choix du joueur -->
+          <em class="fas" id="userChoice">⏱</em>
+          <!-- Icone du choix du joueur -->
+        </div>
+      </div>
+      <div class="section">
+        <!-- Div contenant les informations de l'ordinateur -->
+        <div class="info">
+          <!-- Div contenant le nom de l'ordinateur et son score -->
+          <h3 id="computerInfo">Ordinateur :</h3>
+          <!-- Nom de l'ordinateur -->
+          <span id="computerScore">0</span>
+          <!-- Score de l'ordinateur -->
+        </div>
+        <div class="show">
+          <!-- Div contenant l'icone du choix de l'ordinateur -->
+          <em class="fas" id="computerChoice">⏱</em>
+          <!-- Icone du choix de l'ordinateur -->
+        </div>
+      </div>
+    </div>
+    <h2 style="color: rgb(233, 33, 19)" id="infoText2">
+      Choisissez une option
+    </h2>
+    <!-- Sous-titre de la page -->
+    <div class="selection">
+      <!-- Div contenant les boutons de choix -->
+      <button class="fas" id="rock" onclick="button(this.id)">✊</button>
+      <!-- Bouton de choix pierre -->
+      <button class="fas" id="paper" onclick="button(this.id)">🤚</button>
+      <!-- Bouton de choix papier -->
+      <button class="fas" id="scissors" onclick="button(this.id)">✌</button>
+      <!-- Bouton de choix ciseaux -->
+    </div>
+  </body>
+</html>
